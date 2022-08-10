@@ -1,0 +1,50 @@
+{
+  "name": "pretty-mass",
+  "version": "0.0.5",
+  "description": "Print grams in different measurements and in a readable form: `1234567` -> `1.234 tonne`, `123456` -> `123.456 kg`",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.json",
+    "test:watch": "jest --config jest.config.json --watch",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "Itay Avraham",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "gram",
+    "kilogram",
+    "tonne",
+    "ton",
+    "mass",
+    "weight",
+    "pretty",
+    "print",
+    "pretty-print",
+    "prettify",
+    "human",
+    "humanize",
+    "humanized",
+    "readable",
+    "text",
+    "string",
+    "number"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "versionBumpStrategy": "patch"
+  }
+}
