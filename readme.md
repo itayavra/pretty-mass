@@ -1,6 +1,6 @@
 # pretty-mass
 
-Pretty-print grams in different measurements: `1234567` -> `1.234 t`, `123456` -> `123.456 kg`
+Print grams in different measurements and in a readable form: `1234567` -> `1.234 tonne`, `123456` -> `123.456 kg`.
 
 ## Install
 
