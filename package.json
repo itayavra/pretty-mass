@@ -1,6 +1,6 @@
 {
   "name": "pretty-mass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Print grams in different measurements and in a readable form: `1234567` -> `1.234 tonne`, `123456` -> `123.456 kg`",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,10 @@
     "test": "jest --config jest.config.json",
     "test:watch": "jest --config jest.config.json --watch",
     "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itayavra/pretty-mass.git"
   },
   "author": "Itay Avraham",
   "license": "MIT",
